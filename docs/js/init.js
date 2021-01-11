@@ -63,11 +63,6 @@ $(document).ready(function(){
         }, 500);
     });
 
-    $("#tabs2").tabs( {
-            show: { effect: "blind", duration: 900 }
-        }
-    );
-
     $('.header__slider').slick({
         dots: true,
         arrows: false,

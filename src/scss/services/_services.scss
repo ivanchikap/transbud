@@ -146,32 +146,17 @@
       0px 2px 6px 0px rgba(0,0,0,0.12);
     }
 
-    &--cryminal::before {
-      background-image: url("../img/cryminal.jpg");
+    &--1::before {
+      background-image: url("../img/1service.jpg");
     }
-    &--admin::before {
-      background-image: url("../img/admin.jpg");
+    &--2::before {
+      background-image: url("../img/2service.jpg");
     }
-    &--intelect::before {
-      background-image: url("../img/intelect.jpg");
+    &--3::before {
+      background-image: url("../img/3service.jpg");
     }
-    &--civil::before {
-      background-image: url("../img/civil.jpg");
-    }
-    &--commercial::before {
-      background-image: url("../img/commercial.jpg");
-    }
-    &--environment::before {
-      background-image: url("../img/environment.jpg");
-    }
-    &--family::before {
-      background-image: url("../img/family.jpg");
-    }
-    &--maritime::before {
-      background-image: url("../img/maritime.jpg");
-    }
-    &--tax::before {
-      background-image: url("../img/tax.jpg");
+    &--4::before {
+      background-image: url("../img/4service.jpg");
     }
   }
 }

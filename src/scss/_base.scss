@@ -6,6 +6,12 @@ body {
   font-size: 14px;
   line-height: 1.2;
 }
+strong {
+  font-weight: 500;
+}
+.cursor-arrow {
+  cursor: default !important;
+}
 
 .container-fluid {
   padding: 0 15px;
