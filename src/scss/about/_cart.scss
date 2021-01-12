@@ -43,7 +43,7 @@
     &--silent::before {
       font-family: 'Font Awesome 5 Free';
       font-weight: 900;
-      content: "\f026";
+      content: "\f4fd";
     }
     &--creative::before {
       font-family: 'Font Awesome 5 Brands';
@@ -92,9 +92,10 @@
 
   &__text {
     color: lighten($black, 20%);
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1.4;
     padding: 0 10px 10px 10px;
+    text-align: center;
   }
 }
 

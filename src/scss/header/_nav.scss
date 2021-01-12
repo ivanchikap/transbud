@@ -10,11 +10,11 @@
         z-index: 22;
         padding: 6px;
         cursor: pointer;
-        color: lighten($black, 25%);
+        color: #eee;
         transition: all .3s linear;
 
         &:hover {
-            color: $black;
+            color: #fff;
             transform: scale(1.15);
         }
     }
@@ -24,7 +24,7 @@
         width: 48px;
         height: 40px;
         border-radius: 4px;
-        background-color: rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.8);
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -34,7 +34,7 @@
         &:hover,
         &:focus {
             box-shadow: 0 0 14px rgba(255, 255, 255, 0.8);
-            background-color: rgba(255,255,255,0.6);
+            background-color: rgba(255,255,255,0.9);
             transform: scale(1.1);
         }
 
@@ -55,7 +55,7 @@
             min-width: 280px;
             padding: 10px;
             position: absolute;
-            background-color: transparent;
+            background-color: rgba(255, 255, 255, .2);
             top: 20px;
             right: 58px;
             z-index: 10;
@@ -102,7 +102,7 @@
 
     &__link {
         padding: 10px;
-        color: lighten($black, 25%);
+        color: #eee;
         font-size: 1.2rem;
         font-family: $roboto;
         font-weight: 500;
@@ -118,7 +118,7 @@
         }
 
         &:hover, &:focus, &--active {
-            color: $black;
+            color: #fff;
             transform: scale(1.04);
         }
     }
