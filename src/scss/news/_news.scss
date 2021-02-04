@@ -20,6 +20,7 @@
     padding: 0 6px;
     font-family: $balsamiq-sans;
     font-size: 1.3rem;
+    min-height: 49px;
   }
 
   &__item-date {
@@ -49,11 +50,26 @@
   &__item-pic {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   &__item-text {
     padding: 4px;
     text-align: justify;
+    height: 247px;
+    overflow: hidden;
+
+    ul {
+      list-style: inside;
+    }
   }
+  &__read-more {
+    text-decoration: underline;
+    margin-left: auto;
+    color: $lemon;
+    margin-top: 6px;
+    font-size: 1.2rem;
+    display: block;
+  }
+
 }

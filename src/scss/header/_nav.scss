@@ -118,7 +118,7 @@
         }
 
         &:hover, &:focus, &--active {
-            color: #fff;
+            color: $lemon;
             transform: scale(1.04);
         }
     }

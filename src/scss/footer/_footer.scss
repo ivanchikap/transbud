@@ -10,6 +10,7 @@
     font-family: $balsamiq-sans;
     font-size: 20px;
     margin-bottom: 8px;
+    color: $lemon;
   }
 
   &__nav {
@@ -26,7 +27,7 @@
     
     &:hover {
       transform: scale(1.1);
-      color: #fff;
+      color: $lemon;
     }
 
     & + & {
@@ -46,7 +47,7 @@
     width: 90%;
     &:hover {
       transform: scale(1.1);
-      color: #fff;
+      color: $lemon;
     }
     @include mobile-large {
       font-size: 17px;
@@ -78,7 +79,7 @@
 
     &:hover {
       transform: scale(1.05);
-      color: #fff;
+      color: $lemon;
     }
   }
   &__col-4.col-4 {

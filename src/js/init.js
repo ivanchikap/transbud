@@ -97,4 +97,9 @@ $(document).ready(function(){
             }
         ]
     });
+    $('.news__read-more').click(function (e) {
+        let newsText = e.target.previousElementSibling;
+        console.log(newsText);
+        newsText.animate({height: 'auto'})
+    });
 });

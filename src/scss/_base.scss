@@ -9,6 +9,10 @@ body {
 strong {
   font-weight: 500;
 }
+p + p, p + h5, p + ul {
+  margin-top: 6px;
+}
+
 .cursor-arrow {
   cursor: default !important;
 }
@@ -161,7 +165,7 @@ strong {
 
   &:hover {
     background-color: $green;
-    border-color: white;
+    //border-color: white;
     color: #fff !important;
   }
 

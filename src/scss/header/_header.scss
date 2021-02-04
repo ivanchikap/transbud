@@ -58,6 +58,28 @@
     }
   }
 
+  &__subtitle {
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: $balsamiq-sans;
+    font-weight: 600;
+    padding: 0 15px;
+    width: 90%;
+
+    @include tablet {
+      font-size: 2rem;
+    }
+    @include mobile-large {
+      line-height: 1.1;
+      width: 100%;
+    }
+    @include mobile {
+      margin-top: 180px;
+      font-size: 1.6rem;
+      letter-spacing: -1px;
+    }
+  }
+
   &__wrapper {
     position: absolute;
     top: 0;
