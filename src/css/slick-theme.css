@@ -202,3 +202,31 @@
     opacity: .75;
     color: white;
 }
+
+.news .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 48px;
+    line-height: 48px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.news .slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
