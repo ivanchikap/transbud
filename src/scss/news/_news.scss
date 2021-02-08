@@ -17,10 +17,15 @@
   }
 
   &__item-title {
-    padding: 0 6px;
+    padding: 0 2px;
     font-family: $balsamiq-sans;
     font-size: 1.3rem;
     min-height: 49px;
+
+    @include mobile-large {
+      font-size: 1rem;
+      letter-spacing: -0.2px;
+    }
   }
 
   &__item-date {
@@ -56,8 +61,13 @@
   &__item-text {
     padding: 4px;
     text-align: justify;
-    height: 247px;
     overflow: hidden;
+    height: 247px;
+    transition: all .3s ease;
+
+    @include tablet {
+      height: 260px;
+    }
 
     ul {
       list-style: inside;

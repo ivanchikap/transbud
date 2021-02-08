@@ -14,6 +14,10 @@
     background-position: center;
     background-size: cover;
 
+    @include mobile-large {
+      padding-top: 170px;
+    }
+
     &--1 {
       background-image: url("../img/slide1.jpg");
     }
@@ -45,7 +49,7 @@
     width: 80%;
 
     @include tablet {
-      font-size: 2.6rem;
+      font-size: 2.5rem;
     }
     @include mobile-large {
       line-height: 1.1;
@@ -139,6 +143,7 @@
     @include mobile {
       margin-left: 0;
       min-width: 60%;
+      width: 90%;
     }
     & + & {
       margin-left: 20px;
@@ -147,11 +152,11 @@
         margin-left: 0;
       }
     }
-    &:last-child {
+    /*&:last-child {
       @include tablet {
         margin: 20px auto 0 auto;
       }
-    }
+    }*/
     span:first-child {
       font-size: 18px;
       font-weight: 500;

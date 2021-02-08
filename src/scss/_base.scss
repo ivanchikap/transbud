@@ -12,7 +12,9 @@ strong {
 p + p, p + h5, p + ul {
   margin-top: 6px;
 }
-
+.h-auto {
+  height: auto !important;
+}
 .cursor-arrow {
   cursor: default !important;
 }
